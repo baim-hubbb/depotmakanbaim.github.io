@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depot Makan Baim</title>
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar Start -->
+     <nav class="navbar">
+        <a href="#" class="navbar-logo">Makan<span>enak.</span></a>
+
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Kontak</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="search-button"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart-button"><i data-feather="//shopping-cart"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+
+        <!-- Search Form Start -->
+         <div class="search-form">
+            <input type="search-button" id="search-box" placeholder="search here...">
+            <label for="search-box"><i data-feather="search"></i></label>
+         </div>
+        <!-- Search Form End -->
+      
+        <!-- Shopping Cart  Start -->
+         <!--div class="shopping-cart">
+         <div class="cart-item">
+            <img src="img/nasgor.jpg" alt="Nasi Goreng">
+            <div class="item-detail">
+                <h3>Nasi Goreng</h3>
+                <div class="item-price">IDR 15K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+         <div class="cart-item">
+            <img src="img/soto-ayam.jpg" alt="Soto Ayam">
+            <div class="item-detail">
+                <h3>Soto Ayam</h3>
+                <div class="item-price">IDR 10K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+         <div class="cart-item">
+            <img src="img/nasi-ayam.jpg" alt="Nasi Ayam">
+            <div class="item-detail">
+                <h3>Nasi Ayam</h3>
+                <div class="item-price">IDR 25K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+         <div class="cart-item">
+            <img src="img/nasi-ikan.jpg" alt="Nasi Ikan">
+            <div class="item-detail">
+                <h3>Nasi Ikan</h3>
+                <div class="item-price">IDR 25K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+         <div class="cart-item">
+            <img src="img/sate-ayam.jpg" alt="Sate Ayam">
+            <div class="item-detail">
+                <h3>Sate Ayam</h3>
+                <div class="item-price">IDR 20K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+         </div>
+        <!-- Shopping Cart  End -->
+     </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="Home">
+        <main class="content"  data-aos="fade-right" data-aos-duration="1000">
+            <h1>Makan <span>Enak</span> Cuman di Sini</h1>
+            <p>Selamat datang di Depot Makan Baim, tempat di mana kelezatan dan inovasi berpadu menjadi satu</p>
+            <a href="#menu" class="cta">Lihat Menu</a>
+        </main>
+        <img src="img/Layer 0.png"  data-aos="fade-left" data-aos-duration="1000">
+    </section>
+    <!-- Hero Section End -->
+    
+    <!-- About Section Start -->
+    <section id="about" class="about">
+        <h2>Tentang <span>Kami</span></h2>
+
+    <div class="row">
+        <div class="about-img">
+            <img src="img/tentang-kami.JPG" alt="Tentang kami">
+        </div>
+        <div class="content">
+            <h3>Kenapa Membeli Makanan di Sini?</h3>
+            <p> Depot Makan Baim menawarkan rasa dan resep yang autentik dan khas. Makanan yang dijual biasanya merupakan hasil warisan turun-temurun yang memiliki cita rasa unik dan tidak dapat ditemukan di tempat lain.</p>
+            <p>Kita bisa mendapatkan rekomendasi makanan yang enak, berbagi cerita, atau sekadar menyapa satu sama lain, yang semuanya dapat menambah kebahagiaan dan rasa memiliki dalam komunitas kita.</p>
+        </div>
+    </div>
+
+    </section>
+    <!-- About Section End -->
+    
+    <!-- Menu Section Start -->
+    <section id="menu" class="menu">
+        <h2><span>Menu</span> Kami</h2>
+        <p>Daftar Menu yang Tersedia</p>
+
+        <div class="row">
+            <div class="menu-card">
+                <img src="img/nasgor.jpg" alt="Nasi Goreng" class="menu-card-img">
+                <h3 class="menu-card-title">- Nasi Goreng -</h3>
+                <p class="menu-card-price">IDR <span>15K</span></p>
+            </div>
+            <div class="menu-card">
+                <img src="img/soto-ayam.jpg" alt="Soto Ayam" class="menu-card-img">
+                <h3 class="menu-card-title">- Soto Ayam -</h3>
+                <p class="menu-card-price">IDR <span>10K</span></p>
+            </div>
+            <div class="menu-card">
+                <img src="img/nasi-ayam.jpg" alt="Nasi Ayam" class="menu-card-img">
+                <h3 class="menu-card-title">- Nasi Ayam -</h3>
+                <p class="menu-card-price">IDR <span>25K</span></p>
+            </div>
+            <div class="menu-card">
+                <img src="img/nasi-ikan.jpg" alt="Nasi Ikan" class="menu-card-img">
+                <h3 class="menu-card-title">- Nasi Ikan -</h3>
+                <p class="menu-card-price">IDR <span>25K</span></p>
+            </div>
+            <div class="menu-card">
+                <img src="img/sate-ayam.jpg" alt="Sate Ayam" class="menu-card-img">
+                <h3 class="menu-card-title">- Sate Ayam -</h3>
+                <p class="menu-card-price">IDR <span>20K</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section End -->
+    
+    <!-- Contact Section Start -->
+     <section id="contact" class="contact">
+        <h2><span>Kontak</span> Kami</h2>
+        <p>Silahkan Hubungi Kami Jika Ada Pesanan atau Pertanyaan</p>
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15692.35930861241!2d121.8398181!3d-10.4935849!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c51efa7457bee7f%3A0x857cf1a7e682ae58!2sDepot%20Makan%20Baim!5e0!3m2!1sid!2sid!4v1722776379950!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        <form  onsubmit="sendMassage()" >
+            <div class="input-group">
+                <i data-feather="user"></i>
+                <input     
+                id="nama"
+                type="text"
+                placeholder="nama" required>
+            </div>
+            <div class="input-group">
+                <i data-feather="phone"></i>
+                <input 
+                id="no hp"
+                type="number"
+                placeholder="no hp" required>
+            </div>
+            <div class="input-group">
+                <i data-feather="message-square"></i>
+                <input 
+                id="pesan"
+                type="text"
+                placeholder="pesan anda" required>
+            </div>
+            <button type="submit" class="btn">Kirim Pesan</button>
+
+            <script>
+                function sendMassage() {
+                const name = document.getElementById('nama').value;
+                const phone = document.getElementById('no hp').value;
+                const message = document.getElementById('pesan').value;
+    
+                const url = "https://api.whatsapp.com/send?phone=6282296341264&text=Halo%20Depot%20Makan%20Baim.%0ASaya%20*"+ name +"*%20(*"+ phone +"*)%0A%0A%0ASaya%20ingin%20memesan%20*"+ message +"*";
+    
+                window.open(url);
+                }
+            </script>
+           
+        </form>
+
+       
+        </div>
+     </section>
+
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="social">
+            <a href="https://wa.me/6282296341264/?text=Halo"><i 
+                data-feather="smartphone"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+            <a href="#"><i data-feather="instagram"></i></a>
+        </div>
+        <div class="credit">
+            <p>Created by <a href="mailto:baim.alboneh@gmail.com">Ibrahim Alboneh</a>. | &copy; 2024.</p>
+        </div>
+
+    </footer>
+    <!-- Footer End -->
+    
+    <!-- Feather Icons -->
+    <script>
+        feather.replace();
+    </script>
+
+    <!-- My JavaScript -->
+     <script src="js/script.js"></script>
+
+     <!-- Animation -->
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+</body>
+</html>
